@@ -1,0 +1,30 @@
+{
+  "name": "codex-hongguo-adapter",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Codex MCP Apps adapter for frostming/dsh-hongguo",
+  "license": "MIT",
+  "repository": "github:Echoes0302/codex-hongguo",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "setup": "node scripts/setup.mjs",
+    "build": "node codex/build.mjs",
+    "test": "node --test codex/state.test.mjs scripts/plugin-config.test.mjs",
+    "install:codex": "node scripts/install.mjs",
+    "smoke": "node codex/smoke.mjs",
+    "check:public": "node scripts/check-public.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/ext-apps": "^2.0.4",
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "esbuild": "^0.28.2",
+    "openhongguo": "0.1.0",
+    "proper-lockfile": "^4.1.2",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "zod": "^4.6.7"
+  }
+}

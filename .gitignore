@@ -1,0 +1,16 @@
+node_modules/
+.upstream/
+.local-plugin/
+.agents/
+codex/generated/
+codex/dist/
+*.log
+.DS_Store
+.env
+.env.*
+*.png
+*.mp4
+*.heic
+profile.json
+history.json
+anonymous.json
