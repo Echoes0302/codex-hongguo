@@ -12,7 +12,7 @@
   "scripts": {
     "setup": "node scripts/setup.mjs",
     "build": "node codex/build.mjs",
-    "test": "node --test codex/state.test.mjs scripts/plugin-config.test.mjs",
+    "test": "node --test codex/state.test.mjs codex/transform.test.mjs scripts/plugin-config.test.mjs",
     "install:codex": "node scripts/install.mjs",
     "smoke": "node codex/smoke.mjs",
     "check:public": "node scripts/check-public.mjs"
